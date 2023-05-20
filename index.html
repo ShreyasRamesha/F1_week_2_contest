@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+    <header>
+        <title>library</title>
+        <link rel="stylesheet" href="./style.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide|Sofia|Trirong">
+    </header>
+    <body>
+        <nav><lable class="logo">Library System</lable>
+             <ul>
+                <li><a href="#section1">Books</a></li>
+                <li><a href="#section2">Register</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">Logout</a></li>
+            </ul>
+        </nav>
+        <div class="content">
+            <br>
+            <br>
+            <section id="section1" class="fms">
+                <br>
+                <br>
+                <h2>Books</h2>
+                <br>
+                <table border="1" cellspacing="0">
+                    <tr><!--row 1-->
+                        <th>Book ID</th>
+                        <th>Title</th>
+                        <th>Author</th>
+                        <th>Genre</th>
+                        <th>Availability</th>
+                    </tr>
+                    <tr><!--row 2-->
+                        <td>1</td>
+                        <td><u><b>Harry Potter1</b></u><br>
+                            <table border="1" cellspacing="0">
+                                <tr><td>Public Data: 1997</td></tr>
+                                <tr><td>Pages Count: 250</td></tr>
+                                <tr><td>ISBN: 123-4567890123</td></tr>
+                            </table>
+                        </td>
+                        <td>J.K. Roling</td>
+                        <td>1</td>
+                        <td>Avalible</td>
+                    </tr>
+                    <tr><!--row 3-->
+                        <td>2</td>
+                        <td><u><b>Harry Potter2</b></u><br>
+                            <table border="1" cellspacing="0">
+                                <tr><td>Public Data: 1998</td></tr>
+                                <tr><td>Pages Count: 300</td></tr>
+                                <tr><td>ISBN: 123-4567890456</td></tr>
+                            </table>
+                        </td>
+                        <td>J.K. Roling</td>
+                        <td>2</td>
+                        <td>Not Avalible</td>
+                    </tr>
+                    <tr><!--row 4-->
+                        <td>3</td>
+                        <td><u><b>Harry Potter3</b></u><br>
+                            <table border="1" cellspacing="0">
+                                <tr><td>Public Data: 1999</td></tr>
+                                <tr><td>Pages Count: 258</td></tr>
+                                <tr><td>ISBN: 123-4567890789</td></tr>
+                            </table>
+                        </td>
+                        <td>J.K. Roling</td>
+                        <td>3</td>
+                        <td>Avalible</td>
+                    </tr>
+                    <tr><!--row 5-->
+                        <td>4</td>
+                        <td><u><b>Harry Potter4</b></u><br>
+                            <table border="1" cellspacing="0">
+                                <tr><td>Public Data: 2000</td></tr>
+                                <tr><td>Pages Count: 323</td></tr>
+                                <tr><td>ISBN: 123-4567890753</td></tr>
+                            </table>
+                        </td>
+                        <td>J.K. Roling</td>
+                        <td>4</td>
+                        <td>Avalible</td>
+                    </tr>
+                    <tr><!--row 6-->
+                        <td>5</td>
+                        <td><u><b>Harry Potter5</b></u><br>
+                            <table border="1" cellspacing="0">
+                                <tr><td>Public Data: 2003</td></tr>
+                                <tr><td>Pages Count: 320</td></tr>
+                                <tr><td>ISBN: 123-4567890159</td></tr>
+                            </table>
+                        </td>
+                        <td>J.K. Roling</td>
+                        <td>5</td>
+                        <td>Avalible</td>
+                    </tr>
+                </table>
+            </section>
+            <br>
+            <section id="section2" >
+                <h2>Register</h2>
+                <br>
+                <form method="post">
+                    <div>
+                        <label for="fname">First Name</label><br>
+                        <input type="text" name="fname" id="fname" size="75" required>
+                    </div>
+                    <br>
+                    <div>
+                        <label for="lname">Last Name</label><br>
+                        <input type="text" name="lname" id="lname" required size="75" >
+                    </div>
+                    <br>
+                    <div>
+                        <label for="dob">Date Of Birth</label><br>
+                        <input type="date" name="dob" id="dob" size="75"  required>
+                    </div>
+                    <br>
+                    <div>
+                        <label for="age">Age</label><br>
+                        <input type="number" name="age" id="age" size="75"  required min="5" max="100">
+                    </div>
+                    <br>
+                    <div>
+                        <label for="email">Email</label><br>
+                        <input type="email" name="email" id="email"  size="75" required>
+                    </div>
+                    <br>
+                    <div>
+                        <label for="password">Password</label><br>
+                        <input type="password" name="password" id="password" size="75"  required>
+                    </div>
+                    <br>
+                    <div>
+                        <label for="cpassword">Confirm Password</label><br>
+                        <input type="password" name="cpassword" id="cpassword" size="75"  required>
+                    </div>
+                    <br>
+                    <div>
+                        <button type="submit" name="reg" size="75" id="reg">Register</button>
+                    </div>
+                </form>
+            </section>
+        </div>
+    </body>
+</html>

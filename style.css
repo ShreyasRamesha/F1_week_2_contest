@@ -1,0 +1,76 @@
+html{
+    scroll-behavior: smooth;
+}
+nav{
+    font-family: "Audiowide", sans-serif;
+    color: white;
+    background-color: black;
+    border: 1px solid black;
+    font-weight:bold ;
+    height: 80px;
+    width: 97%;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 3px;
+    position: fixed;
+    padding-right: 30px;
+}
+nav ul{
+    float: right;
+    margin-top: 0px;
+    font-family: "Audiowide", sans-serif;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+    font-family: "Audiowide", sans-serif;
+}
+a{
+    color: white;
+    font-size: 20px;
+    font-family: "Audiowide", sans-serif;
+}
+label.logo{
+    padding: 0 100px;
+    line-height: 80px;
+    font-family: "Audiowide", sans-serif;
+}
+section{
+    margin-top: 70px;
+    border: 5px solid black;
+    padding: 20px;
+    background-color: lightsalmon;
+    padding-top: 100px;
+   
+}
+table{
+    margin: 20px;
+    column-span: 100;
+    color:whitesmoke;
+    background-color: rgba(0, 0, 0, 0.697);
+    font-family: "Sofia", sans-serif;
+   
+}
+form{
+    font-family: "Trirong", serif;
+}
+section.fms{
+    background-color: aquamarine;
+}
+button{
+    size: 75;
+    width: 470px;
+    height: 30px;
+    background-color: black;
+    color: white;
+}
+h2{
+    color: rgb(2, 2, 139);
+    font-weight: 18px;
+    font-family: "Audiowide", sans-serif;
+}
+a:hover{
+    background-color: white;
+    color: blue;
+}
